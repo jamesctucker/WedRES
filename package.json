@@ -1,0 +1,36 @@
+{
+    "name": "webres",
+    "version": "1.0.0",
+    "description": "Boilerplate Webpack-React-Express-Sass",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev-server": "nodemon server/index.js",
+        "dev-client": "webpack-dev-server",
+        "build": "webpack --mode production",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Antonio Lo Fiego",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/preset-react": "^7.10.1",
+        "babel-loader": "^8.1.0",
+        "css-loader": "^3.5.3",
+        "file-loader": "^6.0.0",
+        "html-webpack-plugin": "^4.3.0",
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.4",
+        "sass-loader": "^8.0.2",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
